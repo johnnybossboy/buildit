@@ -1,0 +1,262 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  background-color: transparent;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.border-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-direction-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.justify-center,
+.flex-justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  -webkit-transition: 0.5s background-color, 0.5s color, 0.5s border;
+  transition: 0.5s background-color, 0.5s color, 0.5s border;
+}
+
+.btn--primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.btn--secondary {
+  background-color: #000;
+  color: #fff !important;
+  border: 1px solid #fff;
+}
+
+.btn--secondary:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000 !important;
+}
+
+.btn--tertiary {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.btn--tertiary:hover {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.btn--delete {
+  background-color: #ff0000;
+  border: 1px solid #fff;
+  color: #fff !important;
+}
+
+.btn--delete:hover {
+  background-color: #fff;
+  border: 1px solid #ff0000;
+  color: #ff0000 !important;
+}
+
+.input {
+  padding: 10px;
+}
+
+.input--wide {
+  width: 100%;
+  min-width: 350px;
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+.mt-small {
+  margin-top: 15px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.mb-small {
+  margin-bottom: 15px;
+}
+
+.ml {
+  margin-left: 30px;
+}
+
+.ml-small {
+  margin-left: 15px;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.border--secondary {
+  border: 1px solid #000;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.no-mb {
+  margin-bottom: 0px;
+}
+
+.divider {
+  width: 100vw;
+  background-color: #000;
+  height: 2px;
+}
+
+.container--width {
+  width: 90%;
+  max-width: 600px;
+}
+
+.recipe-item {
+  padding: 15px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.input--recipe {
+  background-color: #f3f4f6;
+  margin-bottom: 15px;
+}
+
+textarea.input--recipe {
+  min-height: 100px;
+  max-height: 200px;
+  resize: vertical;
+}
+/*# sourceMappingURL=app.css.map */
